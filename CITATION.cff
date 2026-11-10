@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "semantic-cache-eval"
+abstract: "How often a semantic cache answers the wrong question: threshold sweeps on Quora and PAWS, base-rate-adjusted precision, the cache-size effect, and cheap guards."
+authors:
+  - family-names: Baby
+    given-names: Ajin
+    orcid: "https://orcid.org/0009-0007-6190-9516"
+repository-code: "https://github.com/ajinb/semantic-cache-eval"
+url: "https://cloudandsre.com"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-08

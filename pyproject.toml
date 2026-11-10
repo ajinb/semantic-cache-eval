@@ -1,0 +1,27 @@
+[project]
+name = "semantic-cache-eval"
+version = "0.1.0"
+description = "How often a semantic cache answers the wrong question: threshold sweeps on Quora and PAWS, base-rate-adjusted precision, the cache-size effect, and cheap guards."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+authors = [{ name = "Ajin Baby" }]
+dependencies = ["numpy", "fastembed", "pyarrow"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.urls]
+Homepage = "https://cloudandsre.com"
+Repository = "https://github.com/ajinb/semantic-cache-eval"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

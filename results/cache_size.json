@@ -1,0 +1,152 @@
+[
+ {
+  "model": "BAAI/bge-small-en-v1.5",
+  "rows": [
+   {
+    "cache_size": 1000,
+    "hit_rate_at_0.85": 0.007,
+    "hit_rate_at_0.9": 0.004,
+    "hit_rate_at_0.95": 0.002
+   },
+   {
+    "cache_size": 5000,
+    "hit_rate_at_0.85": 0.021,
+    "hit_rate_at_0.9": 0.011,
+    "hit_rate_at_0.95": 0.004
+   },
+   {
+    "cache_size": 20000,
+    "hit_rate_at_0.85": 0.101,
+    "hit_rate_at_0.9": 0.034,
+    "hit_rate_at_0.95": 0.009
+   }
+  ],
+  "sample_0.90_to_0.95": [
+   {
+    "query": "How does one create a successful startup?",
+    "cached": "How can I develop a startup?",
+    "score": 0.901
+   },
+   {
+    "query": "Can I do an MBA after a BA?",
+    "cached": "Can we do MBA after b.e?",
+    "score": 0.917
+   },
+   {
+    "query": "Can I get pregnant the day before ovulation? Why or why not?",
+    "cached": "Is it possible to get pregnant 2 days before ovulation?",
+    "score": 0.924
+   },
+   {
+    "query": "What are ways to have self-control?",
+    "cached": "How can we practice self-control?",
+    "score": 0.915
+   },
+   {
+    "query": "What will happen to stock market due to demonetizing of 500rs and 1000rs note in India?",
+    "cached": "What will be the effect in Stock market after the Indian Government's decision to demonitize 500 and 1000 rupee notes?",
+    "score": 0.937
+   },
+   {
+    "query": "What is it like to attend Williams College?",
+    "cached": "What has your experience been like at Williams College?",
+    "score": 0.946
+   },
+   {
+    "query": "How long would it actually take to travel to Mars?",
+    "cached": "How long will it take humans to travel to Mars?",
+    "score": 0.927
+   },
+   {
+    "query": "Why is aerobic respiration important in a cell?",
+    "cached": "Why is respiration important for cells?",
+    "score": 0.924
+   },
+   {
+    "query": "How can one enjoy its life?",
+    "cached": "How do I enjoy my life?",
+    "score": 0.911
+   },
+   {
+    "query": "What was the best smartphone of 2016?",
+    "cached": "Which is the best smartphone brand of 2016?",
+    "score": 0.937
+   },
+   {
+    "query": "What is the best way to make money on Quora?",
+    "cached": "How can I make money with Quora answers?",
+    "score": 0.915
+   },
+   {
+    "query": "Do you use Snapchat for business?",
+    "cached": "How can I use Snapchat for business?",
+    "score": 0.915
+   },
+   {
+    "query": "What is the Best smartphone around 9k?",
+    "cached": "Which is the best phone to buy under 9k?",
+    "score": 0.921
+   },
+   {
+    "query": "What is the best romantic movie of all time?",
+    "cached": "Which are some of the best romantic movies?",
+    "score": 0.912
+   },
+   {
+    "query": "Can I make 100,000 a month by playing poker?",
+    "cached": "Can I make 40,000 a month playing poker?",
+    "score": 0.907
+   },
+   {
+    "query": "How does Google Maps track traffic?",
+    "cached": "How does live traffic work on Google Maps?",
+    "score": 0.907
+   },
+   {
+    "query": "How we can post in Quora?",
+    "cached": "How do I post something in Quora?",
+    "score": 0.945
+   },
+   {
+    "query": "How do I become a front-end developer?",
+    "cached": "How do I get started with front-end development?",
+    "score": 0.922
+   },
+   {
+    "query": "How can I find my forgotten Gmail account password?",
+    "cached": "How do I recover the Gmail password I forgot?",
+    "score": 0.947
+   },
+   {
+    "query": "Where can I get affordable asbestos removal services for home and business in North Shore?",
+    "cached": "Who provides affordable asbestos removal service in Northern Beaches?",
+    "score": 0.904
+   },
+   {
+    "query": "How can I make my dad quit smoking?",
+    "cached": "How do I stop my dad from smoking?",
+    "score": 0.932
+   },
+   {
+    "query": "What is the scope of an investment banker in the future?",
+    "cached": "What is the scope of an investment banker?",
+    "score": 0.921
+   },
+   {
+    "query": "How do restricted stocks and stock options differ?",
+    "cached": "Stock Options Vs. Restricted Stock (or Other)?",
+    "score": 0.947
+   },
+   {
+    "query": "How should I write the first blog post for a startup?",
+    "cached": "How should I write my first blog post?",
+    "score": 0.933
+   },
+   {
+    "query": "Who should become the next president of USA?",
+    "cached": "Who is the next president of USA?",
+    "score": 0.903
+   }
+  ]
+ }
+]
